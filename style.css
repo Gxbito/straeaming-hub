@@ -68,7 +68,6 @@ footer {
     justify-content: space-around;
     padding: 25px 0px;
   }
-
 }
 
 svg {
@@ -150,7 +149,8 @@ main {
   }
 }
 
-.hero {
+.hero p {
+  text-align: justify;
   @media (max-width: 360px) {
     font-size: 11px;
   }
