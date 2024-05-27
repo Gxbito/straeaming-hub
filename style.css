@@ -305,6 +305,16 @@ main {
   }
 }
 
+.line-container {
+  width: 100%;
+  height: 1px;
+  padding: 0px 50px;
+
+  @media (max-width: 760px) {
+    padding: 0px 25px;
+  }
+}
+
 .line {
   display: block;
   width: 100%;
@@ -312,9 +322,10 @@ main {
   height: 1px;
   background-color: var(--foundation--neutral-neutral-600);
   margin: 0 auto;
-
+  
   @media (max-width: 360px) {
     width: 340px;
+    margin: 0 auto;
   }
 }
 
