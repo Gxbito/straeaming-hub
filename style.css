@@ -56,7 +56,7 @@ svg {
   }
 }
 
-nav > a {
+nav>a {
   text-decoration: none;
   display: flex;
   justify-content: center;
@@ -250,11 +250,11 @@ main {
   }
 }
 
-.text-submit span > a {
+.text-submit span>a {
   color: #3abdc6;
 }
 
-.text-submit > button {
+.text-submit>button {
   border-radius: 100px;
   padding: 12px;
   width: 190px;
@@ -294,7 +294,7 @@ main {
   width: 100%;
   padding: 50px;
 
-  @media (max-width: 360px) {
+  @media (max-width: 760px) {
     padding: 25px;
   }
 }
@@ -350,11 +350,14 @@ main {
   color: #000;
   display: -webkit-box;
   -webkit-box-orient: vertical;
-  -webkit-line-clamp: 3; /* Número de líneas visibles antes de truncar */
+  -webkit-line-clamp: 3;
+  /* Número de líneas visibles antes de truncar */
   overflow: hidden;
   text-overflow: ellipsis;
-  height: calc(1.2em * 3); /* Altura ajustada según el número de líneas */
-  line-height: 1.2em; /* Ajusta la altura de línea según sea necesario */
+  height: calc(1.2em * 3);
+  /* Altura ajustada según el número de líneas */
+  line-height: 1.2em;
+  /* Ajusta la altura de línea según sea necesario */
 
   @media (max-width: 360px) {
     font-size: 11px;
@@ -418,6 +421,7 @@ main {
 
 .brands h2 {
   margin-right: auto;
+
   @media (max-width: 360px) {
     font-size: 20px;
   }
@@ -427,6 +431,7 @@ main {
   max-width: 700px;
   margin-right: auto;
   margin-bottom: 20px;
+
   @media (max-width: 360px) {
     font-size: 11px;
   }
@@ -562,38 +567,82 @@ main {
   justify-content: center;
   gap: 20px;
   margin: 0 auto;
-  padding: 15px;
 
-  @media (max-width: 360px) {
-    max-width: 340px;
-  }
+}
+
+.banner {
+  width: 100%;
 }
 
 .banner img {
   width: 100%;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
   max-width: 1000px;
-  height: 500px;
   margin: 0 auto;
+}
+
+.title-paragraph {
+  padding: 50px;
 
   @media (max-width: 360px) {
-    max-width: 360px;
-    height: 200px;
+    padding: 25px;
   }
 }
 
 .title-paragraph h2 {
+  font-size: 32px;
   text-align: center;
   margin-bottom: 20px;
   font-weight: 700;
 
+  @media (max-width: 760px) {
+    font-size: 20px;
+  }
+
   @media (max-width: 360px) {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 
 .title-paragraph p {
+  @media (max-width: 760px) {
+    font-size: 14px;
+    text-align: justify;
+  }
+
   @media (max-width: 360px) {
     font-size: 11px;
-    text-align: center;
   }
+}
+
+.modal {
+  position: absolute;
+  top: 100px;
+  margin: 0 auto;
+  padding: 10px;
+  width: 320px;
+
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+  display: none;
+  background-color: rgb(44, 154, 44);
+}
+
+.modal.appear {
+  display: block;
+}
+
+/* Para Chrome, Safari, Edge y Opera */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Para Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
 }
