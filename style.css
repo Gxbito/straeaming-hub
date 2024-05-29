@@ -49,6 +49,7 @@ nav {
     gap: 10px;
     justify-content: flex-end;
     padding: 0px 12px;
+    padding-right: 30px;
   }
 }
 
