@@ -71,54 +71,54 @@ const articles = [
         image: "./assets/16.jpg",
         link:"./article-12.html"
     },
-    {
-        id: 13,
-        title: "With the launch of MLS, Apple brings its popular multiview feature to iPad",
-        image: "./assets/17.jpg",
-        link:"./article-13.html"
-    },
-    {
-        id: 14,
-        title: "Community leaves Netflix, but begins filming",
-        image: "./assets/18.jpg",
-        link:"./article-14.html"
-    },
-    {
-        id: 15,
-        title: "The new Sling TV competition pays to watch TV",
-        image: "./assets/19.jpg",
-        link:"./article-15.html"
-    },
-    {
-        id: 16,
-        title: "Roku Enables Forced Two-Factor Authentication for All Roku Owners",
-        image: "./assets/20.jpg",
-        link:"./article-16.html"
-    },
-    {
-        id: 17,
-        title: "DIRECTV introduces new loyalty program benefits",
-        image: "./assets/21.jpg",
-        link:"./article-17.html"
-    },
-    {
-        id: 18,
-        title: "The producer of The King of the Hill says that the debut of the series will not happen until 2025",
-        image: "./assets/22.jpg",
-        link:"./article-18.html"
-    },
-    {
-        id: 19,
-        title: "Philo adds Smithsonian & POP TV to its lineup",
-        image: "./assets/23.jpg",
-        link:"./article-19.html"
-    },
-    {
-        id: 20,
-        title: "Can ESPN+ and Netflix work together? Activist investor Disney believes",
-        image: "./assets/24.jpg",
-        link:"./article-20.html"
-    },
+    // {
+    //     id: 13,
+    //     title: "With the launch of MLS, Apple brings its popular multiview feature to iPad",
+    //     image: "./assets/17.jpg",
+    //     link:"./article-13.html"
+    // },
+    // {
+    //     id: 14,
+    //     title: "Community leaves Netflix, but begins filming",
+    //     image: "./assets/18.jpg",
+    //     link:"./article-14.html"
+    // },
+    // {
+    //     id: 15,
+    //     title: "The new Sling TV competition pays to watch TV",
+    //     image: "./assets/19.jpg",
+    //     link:"./article-15.html"
+    // },
+    // {
+    //     id: 16,
+    //     title: "Roku Enables Forced Two-Factor Authentication for All Roku Owners",
+    //     image: "./assets/20.jpg",
+    //     link:"./article-16.html"
+    // },
+    // {
+    //     id: 17,
+    //     title: "DIRECTV introduces new loyalty program benefits",
+    //     image: "./assets/21.jpg",
+    //     link:"./article-17.html"
+    // },
+    // {
+    //     id: 18,
+    //     title: "The producer of The King of the Hill says that the debut of the series will not happen until 2025",
+    //     image: "./assets/22.jpg",
+    //     link:"./article-18.html"
+    // },
+    // {
+    //     id: 19,
+    //     title: "Philo adds Smithsonian & POP TV to its lineup",
+    //     image: "./assets/23.jpg",
+    //     link:"./article-19.html"
+    // },
+    // {
+    //     id: 20,
+    //     title: "Can ESPN+ and Netflix work together? Activist investor Disney believes",
+    //     image: "./assets/24.jpg",
+    //     link:"./article-20.html"
+    // },
 ];
 
 export default articles;

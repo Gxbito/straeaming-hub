@@ -43,10 +43,22 @@ nav {
   justify-content: center;
   align-items: center;
   gap: 40px;
+  position: relative;
 
   @media (max-width: 760px) {
-    gap: 0px;
-    justify-content: space-around;
+    gap: 10px;
+    justify-content: flex-end;
+    padding: 0px 12px;
+  }
+}
+
+nav img {
+  position: absolute;
+  width: 60px;
+  left: 12px;
+
+  @media (max-width: 760px) {
+    height: 45px;
   }
 }
 
@@ -196,6 +208,7 @@ main {
   font-size: 24px;
   color: #000;
   margin-bottom: 15px;
+  text-align: center;
 
   @media (max-width: 760px) {
     font-size: 18px;
@@ -322,7 +335,7 @@ main {
   height: 1px;
   background-color: var(--foundation--neutral-neutral-600);
   margin: 0 auto;
-  
+
   @media (max-width: 360px) {
     width: 340px;
     margin: 0 auto;
@@ -338,10 +351,16 @@ main {
   }
 }
 
+.articles-container h2 {
+  max-width: 1100px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
 #articles {
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 15px;
   flex-wrap: wrap;
   width: 100%;
@@ -411,13 +430,13 @@ main {
   background-color: #000;
   color: #ffff;
   padding: 8px;
-  margin-top: auto;
   cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
   text-decoration: none;
   font-size: 14px;
+  margin: auto auto 0 auto;
 
   @media (max-width: 360px) {
     font-size: 11px;
@@ -648,7 +667,8 @@ main {
 }
 
 .title-paragraph p {
-  text-align: justify;
+
+  margin-bottom: 20px;
 
   @media (max-width: 760px) {
     font-size: 14px;
@@ -678,7 +698,7 @@ main {
   width: 320px;
   background-color: rgb(44, 154, 44);
   padding: 10px;
-  transition: all .4s ease;
+  transition: all 0.4s ease;
   border-radius: 10px;
   color: #ffffff;
   margin: 0 auto;
@@ -691,7 +711,6 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 /* Para Chrome, Safari, Edge y Opera */
