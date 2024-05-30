@@ -754,8 +754,3 @@ input[type="number"]::-webkit-inner-spin-button {
 input[type="number"] {
   -moz-appearance: textfield;
 }
-
-.navbar a:nth-child(1) {
-  position: absolute;
-  left: 15px;
-}
