@@ -11,7 +11,7 @@ function createArticleCards(articles) {
                     <h4>${article.title}</h4>
                     <a href="${article.link}">Read more</a>
                     <span></span>
-                    <h6>Published on 25 May 2024</h6>
+                    <h6>Published on ${article.date}</h6>
                 </div>
             </div>
         `;
