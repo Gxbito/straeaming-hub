@@ -47,8 +47,7 @@ nav {
 
   @media (max-width: 760px) {
     gap: 10px;
-    justify-content: flex-end;
-    padding: 0px 42px;
+    justify-content: center;
   }
 }
 
@@ -71,12 +70,12 @@ nav {
   gap: 5px;
 
   @media (max-width: 760px) {
-    left: 10px;
+    left: 0px;
   }
 }
 
 .logo img {
-  height: 70px;
+  height: 62px;
 
   @media (max-width: 760px) {
     height: 40px;
